@@ -15,12 +15,13 @@
         
     </header>
     <nav>
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
-        <a href="#">Resume</a>
+        <a href="#AboutMe">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="Alisha Resume.pdf" target="_blank">Resume</a> <!--Resume needs to be updated-->
     </nav>
-    <section class = "about-me">
+    <main>
+    <section id = "aboutMe" class = "about-me">
         <h2>About Me</h2>
         <p>Hi! My name is Alisha</p>
         <img
@@ -31,45 +32,42 @@
        
     </section>
 
-    <section class = "project-list">
-        <section class = "project-card">
-            <h3>Project 1</h3>
+    <section id = "work" class = "row project-list">
+        <figure class = "project-card">
             <img
             src="Images/187A547A-C13F-485B-BC37-180F4089BCC1.jpg"
-            alt="Grand Canyon - Project placeholder"
-          />
-        </section>
-        <section class = "project-card">
-            <h3>Project 2</h3>
+            alt="Grand Canyon - Project placeholder"/> 
+            <figcaption>Project 1</figcaption>
+        </figure>
+
+        <figure  class = "project-card">  
             <img
             src="Images/82906A2A-26F0-4856-A7F8-649A943F7326.jpg"
-            alt="Grand Canyon - Project placeholder"
-          />
-        </section>
-        <section class = "project-card">
-            <h3>Project 3</h3>
+            alt="Grand Canyon - Project placeholder"/>
+            <figcaption>Project 2</figcaption>
+        </figure >
+        <figure  class = "project-card">
             <img
             src="Images/C4671836-EFE3-4592-9C72-B5F7E7C54410.jpg"
-            alt="Grand Canyon - Project placeholder"
-          />
-        </section>
-        <section class = "project-card">
-            <h3>Project 4</h3>
+            alt="Grand Canyon - Project placeholder"/>
+            <figcaption>Project 3</figcaption>
+        </figure >
+        <figure  class = "project-card">
             <img
             src="Images/DSC_9441_Original.JPG"
-            alt="Grand Canyon - Project placeholder"
-          />
-        </section>
+            alt="Grand Canyon - Project placeholder"/>
+          <figcaption>Project 4</figcaption>
+        </figure >
     </section>
     <section>
-        <nav>
-            <h2>Contact</h2>
+        <nav id="contact">
+            <h2 >Contact</h2>
             <a href="#">Email</a>
             <a href="#">Github</a>
         </nav>
     </section>
 
-
+</main>
 
 </body>
 

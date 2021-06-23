@@ -15,8 +15,10 @@ nav a{
     color:rgb(238, 243, 227);
     background-color: teal;
     padding: 20px 20px;
+    margin: 20px;
     text-align: flex-start;
     text-decoration: none;
+    
 }
 .about-me{
     width:800px;
@@ -27,32 +29,44 @@ nav a{
     margin: 40px;
     padding: 40px;
     float: left;
+    flex-wrap: flex;
 }
 .about-me img{
     float:right;
 }
 .project-list{
+   
     flex:4;
-    background-color: #fff;
+    /* background-color:black; */
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     
 }
 .project-card{
+    justify-content: flex-end;
+    width:500x;
+    height:500px; 
   border-style: solid;
   border-width: 1px;
-  border-radius: 50px;
+  /* box-sizing: 100px; */
   padding: 10px;
   flex: 0 0 100px; 
-  
-  box-shadow: 10px 10px 5px #aaaaaa;
+  /* box-shadow: 100px 10px 5px #aaaaaa; */
   margin: 20px;
+  
 }
 .project-card img{
-    width:100%
+    width:50%
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
 @media screen and (max-width: 768px) {
     main,
     nav {
