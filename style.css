@@ -1,15 +1,21 @@
-/* footer{ 
-    color:yellow;
-}*/
+
 header{
     background-color: teal;
-
-}
-header h1{
     color: rgb(238, 243, 227);
     text-align: center;
+
 }
-nav{
+
+ nav{
     display: flex;
     justify-content: flex-start;
+} 
+nav a{
+    width:100%;
+    color:rgb(238, 243, 227);
+    background-color: teal;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    
 }
