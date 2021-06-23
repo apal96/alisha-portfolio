@@ -62,6 +62,10 @@ nav a{
   margin: 20px;
   
 }
+.project-card #p1{
+    width:300x;
+    height:200px; 
+}
 /* size of image in project-card */
 .project-card img{
     width:75%;
