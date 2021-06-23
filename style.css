@@ -19,14 +19,17 @@ nav a{
     text-decoration: none;
 }
 .about-me{
-    width:500px;
-    height: 450px;
+    width:800px;
+    height: 600px;
     border-style: double;
     border-width: 1px;
     border-color: black;
     margin: 40px;
     padding: 40px;
-
+    float: left;
+}
+.about-me img{
+    float:right;
 }
 .project-list{
     flex:4;
@@ -46,6 +49,9 @@ nav a{
   
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
+}
+.project-card img{
+    width:100%
 }
 @media screen and (max-width: 768px) {
     main,
