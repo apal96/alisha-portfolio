@@ -1,6 +1,6 @@
 # alisha-portfolio
 
-One paragraph of project description goes here.
+This project uses html and css to create a portfolio. The portfolio contains samples of my work, an about me section, an image, and links to my resume and contact information. 
 
 ## Getting Started
 https://apal96.github.io/alisha-portfolio/
@@ -12,12 +12,12 @@ https://apal96.github.io/alisha-portfolio/
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 
 ## Deployed Link
 
 * [See Live Site](https://apal96.github.io/alisha-portfolio/)
-![image](Images/Screen Shot 2021-06-22 at 11.45.03 PM.png)
+![Alt text](Images/Screen Shot 2021-06-22 at 11.45.03 PM.png?raw=true)
 
 
 
@@ -29,6 +29,3 @@ https://apal96.github.io/alisha-portfolio/
 - [Link to Github](https://github.com/apal96)
 - [Link to LinkedIn](linkedin.com/in/alisha-pal-6635361b5)
 
-## License
-
-This project is licensed under the MIT License 
